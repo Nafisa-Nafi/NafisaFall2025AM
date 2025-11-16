@@ -1,0 +1,105 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+	background-image: url(images/img11.jpg);
+	background-repeat: repeat;
+	
+}
+
+
+h1 {
+	color: #000000;
+	background-color: #94735a;
+	text-align: center;
+}
+
+#left-container {
+	left: 0px;
+	background-image: url(images/img04.jpg);
+}
+
+#right-container {
+	right: 0px;
+	background-image: url(images/img04.jpg);
+}
+
+.container {
+	background-color: #eeeeee15;
+	width: 15%;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+.plant-holder {
+	position: relative;
+	height: 13%;
+	left: -5px;
+}
+
+.plant {
+	position: absolute;
+	max-width: 150%;
+	max-height: 150%;
+	z-index: 5;
+}
+
+
+.jar-walls {
+	height: 50%;
+	width: 25%;
+	background: #000000;
+	background-image: url(images/img05.jpg);
+	border-radius: 0.8rem;
+	position: absolute;
+	bottom: 5%;
+	left: 20%;
+	opacity: 0.8;
+	z-index: 1;
+}
+
+.jar-walls2{
+	height: 50%;
+	width: 25%;
+	background: #0599f5;
+	background-image: url(images/img05\(2\).jpg);
+	border-radius: 0.8rem;
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	opacity: 0.8;
+	z-index: 1;
+}
+/*.jar-bottom {
+	width: 50%;
+	height: 1%;
+	background: #000000;
+	position: absolute;
+	bottom: 0%;
+	left: 5%;
+	opacity: 400;
+}*/
+
+.dirt {
+	width: 25%;
+	height: 5%;
+	background: #000000;
+	position: absolute;
+	border-radius: 0 0 1rem 1rem;
+	bottom: 0.4%;
+	left: 20%;
+	opacity: 100;
+	z-index: -1;
+}
+
+.dirt2 {
+	height: 10%;
+	width: 100%;
+	background: #042282;
+	position: absolute;
+	border-radius: 0 0 1rem 1rem;
+	bottom: -5%;
+	left: 0%;
+	opacity: 100;
+	z-index: -1;
+}
